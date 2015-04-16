@@ -1,0 +1,23 @@
+{
+  "name": "api-response",
+  "description": "Express middleware API responses in JSON",
+  "version": "1.0.0",
+  "author": "Julien Tilap LA VINH <jlavinh@gmail.com>",
+  "keywords": [
+    "express",
+    "json",
+    "api"
+  ],
+  "main": "./index.js",
+  "bugs": {
+    "url": "https://github.com/tilap/api-response/issues/new",
+    "email": "jlavinh@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tilap/api-response.git"
+  },
+  "devDependencies": {
+    "express": "~4.0.0"
+  }
+}
