@@ -41,10 +41,10 @@ var jsonResponse = function(){
   };
 
   self.apiResponse = function ( status, data, message) {
-    console.log('ok');
     status = status || 200;
     data = data || {};
     message = message || '';
+    error = false;
 
     if(''===message && self.httpStatus.hasOwnProperty(status)) {
       message = self.httpStatus[status];
